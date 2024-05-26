@@ -7,14 +7,14 @@ setup(
     author="Daniel Schick",
     author_email="schick@mbi-berlin.de",
     python_requires=">=3.6",
-    entry_points={"console_scripts": ["AUTOMATIONHAT = tangods_automationhat:main"]},
+    entry_points={"console_scripts": ["AutomationHAT = tangods_automationhat:main"]},
     license="MIT",
     packages=["tangods_automationhat"],
     install_requires=[
         "pytango",
-        "automation-hat",
+        "automationhat",
     ],
-    url="https://github.com/lrlunin/pytango-moenchZmqServer",
+    url="https://github.com/MBI-DIiv-B/pytango-automationhat",
     keywords=[
         "tango device",
         "tango",
